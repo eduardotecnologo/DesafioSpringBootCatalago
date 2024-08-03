@@ -1,0 +1,5 @@
+package com.edudeveloper.restaurantecatalago.domain.category;
+
+public record CategoryDTO(String title, String description, String ownerId ) {
+
+}
