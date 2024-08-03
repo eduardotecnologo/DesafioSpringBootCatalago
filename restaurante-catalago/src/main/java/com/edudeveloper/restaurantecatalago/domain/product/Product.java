@@ -4,7 +4,6 @@ import java.util.Locale.Category;
 
 import org.springframework.data.mongodb.core.mapping.Document;
 
-import com.edudeveloper.restaurantecatalago.domain.category.CategoryDTO;
 import com.edudeveloper.restaurantecatalago.domain.category.Id;
 
 import lombok.Getter;

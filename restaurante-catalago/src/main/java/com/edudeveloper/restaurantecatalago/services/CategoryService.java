@@ -1,5 +1,6 @@
 package com.edudeveloper.restaurantecatalago.services;
 
+import java.util.List;
 import java.util.Optional;
 
 import org.springframework.stereotype.Service;
@@ -36,6 +37,9 @@ public class CategoryService {
         Category category = this.repository.findById(id)
             .orElseThrow(CategoryNotFoundException::new);
         this.repository.delete(category);
+    }
+    public List<Category> getAll(){
+        return this.repository.findAll();
     }
 
     public Optional<Category> getById(String id){

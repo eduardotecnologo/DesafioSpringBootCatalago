@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-RestauranteCatalagoApplication<restaurante-catalago>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.edudeveloper.restaurante_catalago.RestauranteCatalagoApplication",
+            "projectName": "restaurante-catalago",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
